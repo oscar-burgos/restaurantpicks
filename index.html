@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food for Crystal and Oscar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <body id="myCanvas">
+  	<!-- Header Container Begins-->
+  	<div class="container-fluid">
+      <!-- Pick a Random Restaurant -->
+  		<div class="col-sm-12 center-block">
+        <div>
+          <button type="randomRest" onclick="randomRest()">Pick a Place</button>
+          <input name="randomRest" id="randomRest">
+        </div>
+  		</div>
+      <!-- Pick a Random Restaurant for DINNER-->
+      <div class="col-sm-12 center-block">
+        <div>
+          <button type="randomDinn" onclick="randomDinn()">Pick a Place for Dinner</button>
+          <input name="randomDinn" id="randomDinn">
+        </div>
+      </div>
+      <!-- Pick a Random Restaurant for LUNCH-->
+      <div class="col-sm-12 center-block">
+        <div>
+          <button type="randomLunch" onclick="randomLunch()">Pick a Place for Lunch</button>
+          <input name="randomLunch" id="randomLunch">
+        </div>
+      </div>
+      <!-- Pick a Random Restaurant for BREAKFAST-->
+      <div class="col-sm-12 center-block">
+        <div>
+          <button type="randomBrkfast" onclick="randomBrkfast()">Pick a Place for Breakfast</button>
+          <input name="randomBrkfast" id="randomBrkfast">
+        </div>
+      </div>
+      <!-- Pick a Random FAST FOOD Restaurant-->
+      <div class="col-sm-12 center-block">
+        <div>
+          <button type="randomFast" onclick="randomFast()">Pick a Fast Food Place</button>
+          <input name="randomFast" id="randomFast">
+        </div>
+      </div>
+      <!-- Pick a Random NEW Restaurant-->
+      <!-- <div class="col-sm-12 center-block">
+        <div>
+          <button type="randomNewPlace" onclick="randomNewPlace()">Pick a New Place</button>
+          <input name="randomNewPlace" id="randomNewPlace">
+        </div>
+      </div> -->
+  	</div>
+  	<!-- Location info begisn -->
+  	<div class="background">
+  	  <div  class="center-block" id="weather-info">
+  	  	<!-- City Weather Information is appended here -->
+  	  </div>
+  	</div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>
